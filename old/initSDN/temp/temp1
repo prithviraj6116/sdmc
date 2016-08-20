@@ -1,0 +1,14 @@
+    PrintFrame()
+    import traceback
+    for line in traceback.format_stack():
+      print(line.strip())
+
+
+
+import inspect
+
+def PrintFrame():
+  callerframerecord = inspect.stack()[1]    # 0 represents this line
+  frame = callerframerecord[0]
+  info = inspect.getframeinfo(frame)
+  print(str(threading.current_thread()) + ":" + info.filename+":"+info.function+":" + str(info.lineno))

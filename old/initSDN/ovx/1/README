@@ -1,0 +1,7 @@
+1. needs Floodlight v0.90 to run this example
+2. sudo python internet2.py
+3. sudo sh ovx.sh (from 
+4. sudo ./controller.sh
+5. to verify in mininet CLI 
+   h_SEA_1 ping -c3 h_LAX_2
+6. (refined version in ./2 folder)

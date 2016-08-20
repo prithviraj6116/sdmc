@@ -1,0 +1,15 @@
+#configuration for
+#forwarding http://localhost:80/hello address to 127.0.0.1:8000 address
+events {
+  worker_connections 1024;
+}
+http {
+  server {
+    listen 80;
+    server_name localhost;
+
+    location /hello_loc {
+      fastcgi_pass   127.0.0.1:8000; 
+    }
+  }
+}

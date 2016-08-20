@@ -1,0 +1,8 @@
+
+
+1. To start the nginx web server with configuration
+   sudo nginx -c /vagrant/initSDN/web292/nginx1/nginx.cfg
+2. if you change nginx.conf file then kill the nginx web server with (sudo pkill -9 -f nginx)  and start it again
+3. open the firefox web browser and go to localhost:80 with
+   sudo firefox localhost:80
+   

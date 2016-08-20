@@ -1,0 +1,6 @@
+1. needs Floodlight v0.90 to run this example
+2. sudo python internet2.py
+3. sudo sh ovx.sh (from /home/vagrant/OpenVertex/scripts)
+4. sudo ./controller.sh
+5. to verify in mininet CLI 
+   h_s1_1 ping -c1 h_s2_2

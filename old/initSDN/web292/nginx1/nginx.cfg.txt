@@ -1,0 +1,19 @@
+# this is configuration which translates http://localhost:80/ to the /vagrant directory
+#
+# e.g. http://localhost:80/Vagrantfile will show the /vagrant/Vagrantfile and so on
+# 
+http {
+  server {
+    listen 80;
+    server_name localhost;
+    location / {
+    	     root /vagrant/;
+             autoindex on;     
+
+    }
+  }
+}
+
+# This is required for some reason.
+events{
+}

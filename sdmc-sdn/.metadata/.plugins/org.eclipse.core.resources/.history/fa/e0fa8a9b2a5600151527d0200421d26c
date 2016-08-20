@@ -1,0 +1,18 @@
+package sdmc;
+
+import java.util.ArrayList;
+
+public class Switch {
+
+	/**
+	 * @param args
+	 */
+	
+	public ArrayList<Link> links_hosts = new ArrayList<Link>();
+	public ArrayList<Link> links_switches = new ArrayList<Link>();
+	public ArrayList<Host> hosts = new ArrayList<Host>();
+	public ArrayList<Switch> switches = new ArrayList<Switch>();
+	public int number_Of_Ports =  Configuration_Parameters.max_Number_Of_Ports;
+	
+
+}

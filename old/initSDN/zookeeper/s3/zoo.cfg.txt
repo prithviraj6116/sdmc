@@ -1,0 +1,8 @@
+tickTime=2000
+dataDir=/vagrant/initSDN/zookeeper/s3
+clientPort=2193
+initLimit=5
+syncLimit=2
+server.1=localhost:2891:3891
+server.2=localhost:2892:3892
+server.3=localhost:2893:3893

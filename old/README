@@ -1,0 +1,17 @@
+1. vagrant up
+2. vagrant ssh
+3. /vagrant/install_scripts/bootstrap.sh
+
+
+1.sudo ./run.sh
+
+2. sudo nv1/controller.sh
+
+
+Step 1 will create virtual machine with ubuntu:14.04 in virtualbox using vagrant APIs. It 
+will also install required software (mininet, flowvisor etc)
+Step 2 will run the examples
+
+
+
+
